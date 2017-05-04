@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object test example" duration-ms="24641" started-at="2017-04-16T04:13:28Z" finished-at="2017-04-16T04:13:53Z">
+    <groups>
+    </groups>
+    <test name="sample test" duration-ms="24641" started-at="2017-04-16T04:13:28Z" finished-at="2017-04-16T04:13:53Z">
+      <class name="com.MySeleniumProject.Tests.GoogleTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.MySeleniumProject.Tests.GoogleTest@58daff8d]" name="initializeTestBaseSetup" is-config="true" duration-ms="21865" started-at="2017-04-15T21:13:29Z" finished-at="2017-04-15T21:13:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MySeleniumProject.Tests.GoogleTest@58daff8d]" name="setUp" is-config="true" duration-ms="1" started-at="2017-04-15T21:13:50Z" depends-on-methods="com.MySeleniumProject.Utils.TestsBaseSetUP.initializeTestBaseSetup" finished-at="2017-04-15T21:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGoogleSearchTitle(java.lang.String)[pri:0, instance:com.MySeleniumProject.Tests.GoogleTest@58daff8d]" name="testGoogleSearchTitle" duration-ms="106" started-at="2017-04-15T21:13:50Z" finished-at="2017-04-15T21:13:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleSearchTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MySeleniumProject.Tests.GoogleTest@58daff8d]" name="tearDown" is-config="true" duration-ms="2573" started-at="2017-04-15T21:13:51Z" finished-at="2017-04-15T21:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MySeleniumProject.Tests.GoogleTest -->
+    </test> <!-- sample test -->
+  </suite> <!-- Page Object test example -->
+</testng-results>

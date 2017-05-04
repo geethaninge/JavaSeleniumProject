@@ -1,0 +1,9 @@
+com\MySeleniumProject\Utils\WaitUtil.class
+com\MySeleniumProject\Utils\TestsBaseSetUP$Browser.class
+com\MySeleniumProject\Utils\TestsBaseSetUP.class
+com\MySeleniumProject\Utils\DataProviderClass.class
+com\MySeleniumProject\Utils\BaseUtils.class
+com\MySeleniumProject\Utils\TestsBaseSetUP$1.class
+com\MySeleniumProject\Pages\GoogleSearchPage.class
+com\MySeleniumProject\Pages\GoogleSignInPage.class
+com\MySeleniumProject\Pages\GoogleHomePage.class

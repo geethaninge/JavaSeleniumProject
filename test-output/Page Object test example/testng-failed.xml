@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Page Object test example]" parallel="methods">
+  <parameter name="searchTerm" value="flower"/>
+  <parameter name="pageTitle" value="Google"/>
+  <parameter name="browserType" value="FIREFOX"/>
+  <parameter name="appURL" value="http://www.google.com"/>
+  <parameter name="userName" value="geethagowda401@gmail.com"/>
+  <parameter name="passWord" value="ashaushanishagowda"/>
+  <test name="sample test(failed)" parallel="methods">
+    <parameter name="browserType" value="FIREFOX"/>
+    <classes>
+      <class name="com.MySeleniumProject.Tests.GoogleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testGoogleSearchTitle" invocation-numbers="0 0"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MySeleniumProject.Tests.GoogleTest -->
+    </classes>
+  </test> <!-- sample test(failed) -->
+</suite> <!-- Failed suite [Page Object test example] -->
